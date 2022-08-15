@@ -1,5 +1,5 @@
 def is_pangram(sentence):
-    alpha="abcdefghijklmnopqrstuvwxyz"
+    alpha = "abcdefghijklmnopqrstuvwxyz"
     sentence = "".join(sorted(set(list(sentence.lower()))))
 
     if alpha in sentence:
